@@ -1,0 +1,86 @@
+.weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,#5877c6,#5877c6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBar {
+display: flex;
+align-items: center;
+gap: 12px;
+
+}
+.searchBar input{
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    font-size: 18px;
+    background: #ebfffc;
+}
+.searchIcon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #ebfffc;
+    cursor: pointer;
+    color: #626262;
+}
+
+.weatherImage img{
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+}
+
+.temperature{
+    color: #ebfffc;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.weatherData{
+    margin-bottom: 13%;
+}
+.placeName{
+    margin-top: 0;
+    font-size: 27px;
+    font-weight: 500;
+    color: #ebfffc;
+    margin-bottom: 0;
+}
+.temperatureArea{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.tempImage{
+    height: 30px;
+    width: 30px;
+}
+.tempImage img{
+    height: 100%;
+    width: 100%;
+}
+.temperatureData{
+    display: flex;
+    color: #ebfffc;
+    align-items: flex-start;
+    gap: 12px;
+    /* font-size: 22px; */
+    
+}
+.temp{
+    margin-top: -5%;
+}
+.temp p{
+    margin: 0;
+}
